@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
+  <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
-<!-- スマホ版の時表示する　PC版の時はdisplay:noneで非表示 -->
-<button id="menuButton">Menu</button>
-<div id="drawerMenu" class="drawer">
-  <ul class="">
+<body>
+
+<!-- team演習JS -->
+<!-- 共通header -->
+<header>
+  <h1>
+    <img src="../チーム演習用下書き/images.png" alt="">
+  </h1> 
+  <!-- PC版の時表示する　スマホ版の時はdisplay:noneで非表示 -->
+  <!-- <nav class="icon">
+  <ul class="menu_pc">
     <li><a href="#">TOP</a></li>
     <li><a href="#">台北</a></li>
     <li><a href="#">台中</a></li>
     <li><a href="#">台南</a></li>
+  </ul></nav>
+</header> -->
+<!-- スマホ版の時表示する　PC版の時はdisplay:noneで非表示 -->
+<nav class="MenuList">
+  <input class="menu-btn" type="checkbox" id="menu-btn">
+  <label class="menu-icon" for="menu-btn">
+    <span class="navicon"></span>
+  </label>
+  <ul class="list">
+    <li><a href="#"><p>TOP</p></a></li>
+    <li><a href="#"><p>台北</p></a></li>
+    <li><a href="#"><p>台中</p></a></li>
+    <li><a href="#"><p>台南</p></a></li>
   </ul>
-</div>
-<body>
-
+  </nav>
+  </header>
 </body>
-
 </html>
