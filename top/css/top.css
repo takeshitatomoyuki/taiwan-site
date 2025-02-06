@@ -4,7 +4,7 @@ body {
 }
 
 h2 {
-  background: url(image/sp_top_main_midashi.png) no-repeat;
+  background: url(/top/image/sp_top_main_midashi.png) no-repeat;
   background-position: center center;
   background-size: 75%;
   text-align: center;
@@ -44,7 +44,7 @@ p {
 }
 
 .bg1 {
-  background: url(image/sp_top_hd_bg.png) no-repeat center center;
+  background: url(/top/image/sp_top_hd_bg.png) no-repeat center center;
   background-size: cover;
   width: 100vw;
   height: calc(100vw * 1.8);
@@ -52,7 +52,7 @@ p {
 
 .bg2 {
 
-  background: url(image/sp_top_main_bg1.png) no-repeat center center;
+  background: url(/top/image/sp_top_main_bg1.png) no-repeat center center;
   background-size: cover;
   width: 100vw;
   height: calc(100vw * 1.1);
@@ -77,7 +77,7 @@ p {
 
 .bg3 {
   padding-top: 80px;
-  background: url(image/sp_top_main_bg2.png) no-repeat center center;
+  background: url(/top/image/sp_top_main_bg2.png) no-repeat center center;
   background-size: cover;
   width: 100vw;
   height: calc(100vw * 1.1);
