@@ -1,3 +1,18 @@
+/* パンくずナビゲーション */
+.taiwan{
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.taiwan{
+  color: #000000;
+}
+.taiwan li:not(:last-child)::after {
+  content: ">";
+  margin: 0 5px;
+}
+/* ここまでパンくずナビゲーション */
+/* header要素 */
 .list{
   list-style: none;
   text-decoration:underline;
@@ -93,4 +108,4 @@
   .MenuList .menu-icon .navicon::after {
     background:  #110135;
   }
-  
+  /* header要素ここまで */
