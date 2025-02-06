@@ -21,7 +21,6 @@ div.top_bg{
 }
 .sub_picture{
   display: flex;
-  justify-content: space-between;
 }
 h2{
   background-image: url(../image/sp_tp_main_midashi.png);
