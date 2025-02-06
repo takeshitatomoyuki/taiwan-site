@@ -1,14 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="../common/css/common.css">
+  <link rel="stylesheet" href="css/taipei.css">
+  <title>台北</title>
+</head>
 <body>
 
-</body>
+<!-- team演習JS -->
+<!-- 共通header -->
+<header>
+     <h1><div class="top_bg"><img class="bg_img" src="image/sp_tp_hd_logo_kanji.png" alt="">  <p class="top_Page">台湾市は台湾の中心地です。活気にあふれる街台北では、さまざまな建物や台北を生きる人々の美しい風景を見ることができます。</p></div>
+      
+    </h1>
+  <!-- PC版の時表示する　スマホ版の時はdisplay:noneで非表示 -->
+  <!-- <nav class="icon">
+  <ul class="menu_pc">
+    <li><a href="#">TOP</a></li>
+    <li><a href="#">台北</a></li>
+    <li><a href="#">台中</a></li>
+    <li><a href="#">台南</a></li>
+  </ul></nav>
+</header> -->
+<!-- スマホ版の時表示する　PC版の時はdisplay:noneで非表示 -->
+<nav class="MenuList">
+  <input class="menu-btn" type="checkbox" id="menu-btn">
+  <label class="menu-icon" for="menu-btn">
+    <span class="navicon"></span>
+  </label>
+  <ul class="list">
+    <li class="list_name"><a href="#"><p>TOP</p></a></li>
+    <li class="list_name"><a href="#"><p>台北</p></a></li>
+    <li class="list_name"><a href="#"><p>台中</p></a></li>
+    <li class="list_name"><a href="#"><p>台南</p></a></li>
+  </ul>
+  </nav>
 
+  </header>
+
+
+<main>
+
+    <!-- パンくずナビゲーション -->
+  <nav aria-label="page">
+    <ul class="taiwan">
+      <li><a href="">Top</a></li>
+      <li aria-current="page">現在のページ</li>
+    </ul>
+  </nav>
+  <!-- ここまでパンくずナビゲーション -->
+
+<section id="Attraction">
+   <h2><p>Attraction</p><p>観光名所</p></h2>
+    <h3>九份</h3>
+      <p class="main_image">
+      <img src="image/sp_tp_main_ar1.png" alt="">
+      </p>
+       <p class="attraction_Page">細い路地の階段に沿って建つ古い館に、提灯が灯るノスタルジックな風景。1989年、映画「非情城市」の舞台になったことをきっかけに再び注目を集めると共に、日本では、九份の町中にある建物が2001年公開の映画「千と千尋の神隠し」に登場する湯婆婆の湯屋を彷彿させるとして話題に。日本統治時代に建てられた古い建物が残ることから、どこか懐かしい雰囲気が漂う町並みは日本人の琴線に触れ、今や台湾で行きたい観光地ナンバーワンとなりました。</p>
+    <div class="sub_picture">
+     <p class="main_image">
+      <img src="image/sp_tp_main_ar2.png" alt="">
+      <img src="image/pc_tp_main_ar3.png" alt="">
+      </p>
+    </div>
+    <div>
+      <p>幻想的な夕暮れが狙い目</p>
+      <p>15:00~19:00</p>
+    </div>
+
+       
+      <h3>台北101</h3>
+      <img src="image/pc_tp_main_ar4.png" alt="">
+        <p class="attraction_Page">高さは509.2m、地上101階あるのが名前の由来です。エレベーターは東芝エレベータ製で、毎分1,010メートル（時速60.6キロメートル）の速さで上昇でき、地上1階から展望台のある89階（地上382.2メートル）まで39秒で到達します。展望台、オフィス、レストラン、ショッピングモールなどが入る台湾を代表するランドマークワーで、有名なカウントダウンパーティーをはじめ節目に合わせたライトアップも行っています。一度は行っておきたい名所です。</p>
+        <div class="sub_picture">
+          <p class="main_image">
+            <img src="image/sp_tp_main_ar5.png" alt="">
+            <img src="image/sp_tp_main_ar6.png" alt=""> 
+          </p>
+       </div>
+       <div>
+          <p>展望台営業時間帯</p>
+          <p>11:00~19:00</p>
+        </div>
+</section>
+<section id="nightMarket"></section>
+ <h2>NightMarket<p>夜市</p></h2>
+     <p>台北観光の夜の目玉と言えば、なんと言っても夜市（ナイトマーケット）があげられます。 毎日市内の各所で開かれており、夕方から夜遅くまで多くの人々で賑わっています。 絶品Ｂ級グルメ・小吃からファッション、ゲームまで様々なお店が集まっています。</p>
+     <img src="image/sp_tp_main_nm1.png" alt="">
+  <div>
+    <ul>
+     <li> <p>寧夏夜市</p><img src="image/pc_tp_main_nm_yo_btn.png" alt="">
+      </li>
+      <li><p>饒河街観光夜市</p> <img src="image/pc_tp_main_nm_yo_btn.png" alt=""> </li>
+      <li><p>士林夜市</p> <img src="image/pc_tp_main_nm_yo_btn.png" alt=""> </li>
+      <li> <p>通化夜市</p><img src="image/pc_tp_main_nm_yo_btn.png" alt=""></li>
+    </ul>
+  </div>
+  <div>
+    <img src="image/sp_tp_main_nm2.png" alt="">
+  </div>
+<h2>Access<img src="image/sp_tp_main_midashi.png" alt=""></h2>
+  <h3>各地へのアクセスにご利用ください。</h3>
+      <p><img src="images.png" alt=""></p>
+    <div class="access">
+      <ul><p>地下鉄</p><p>(初乗り20元)</p>
+       <li>
+        <p>乗り方は日本の地下鉄とほぼ同じ。改札を通る時に、切符やICカードをタッチします。台北MRTは全て各駅停車です。</p>
+       </li>
+      </ul>
+     <ul><p>バス</p><p>(初乗り15元)</p>
+       <li>
+        <p>バス停には、ポールが立っており、大通りでは車道の真ん中のバスレーン沿いにあります。乗りたい場合、バスに向かって手を挙げて知らせます。運賃を現金で払う場合は、運転手に行先を告げてから運賃箱にお金を入れます。</p>
+       </li>
+      </ul>
+      <ul><p>タクシー</p><p>(初乗り70元)</p>
+        <li>
+          <p>市内の移動で気軽に使うことが出来ます。MRTなどが運行していない真夜中や早朝の移動にも便利です。新幹線の駅や有名観光地などにはタクシー乗り場が準備されているので、そこから乗りましょう。ホテルではフロントで呼んでもらうこともできます。</p>
+         </li>
+      </ul>
+       <ul><p>悠遊カード</p><p>(販売額100元)</p>
+        <li>
+         <p>現金をチャージして使うことが出来る交通系ICカードです。MRT・バス・台湾鉄路などで使用することができ、運賃が割引になります。台北旅行の際に手に入れておくと便利です。</p>
+       </li>
+      </ul>
+    </div>
+ </main>
+</body>
 </html>
