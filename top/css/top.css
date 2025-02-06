@@ -1,0 +1,243 @@
+/* 全体の基本スタイル */
+body {
+  background-color: #f4f4f4;
+}
+
+h2 {
+  background: url(image/sp_top_main_midashi.png) no-repeat;
+  background-position: center center;
+  background-size: 75%;
+  text-align: center;
+  font-weight: 400;
+  font-family: 24px;
+  padding-bottom: 30px;
+  vertical-align: bottom;
+}
+
+.logo {
+  padding-top: 40px;
+  width: 90vw;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+p {
+  margin: 0 16%;
+  text-align: center;
+}
+
+.text-with-lines {
+  border-top: 2px solid black;
+  /* 上部に黒線を引く */
+  border-bottom: 2px solid black;
+  /* 下部に黒線を引く */
+  padding: 10px;
+  /* テキスト周りに余白を追加 */
+  text-align: left;
+}
+
+.bg1 {
+  background: url(image/sp_top_hd_bg.png) no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vw * 1.8);
+}
+
+.bg2 {
+
+  background: url(image/sp_top_main_bg1.png) no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vw * 1.1);
+  text-align: center;
+  justify-content: center;
+}
+
+.bg2_sub1 {
+  margin-top: 40px;
+}
+
+.bg2_p {
+  margin-top: 40px;
+}
+
+.bg2_sub2 {
+  margin-top: 100px;
+  width: 80%;
+  height: auto;
+
+}
+
+.bg3 {
+  padding-top: 80px;
+  background: url(image/sp_top_main_bg2.png) no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vw * 1.1);
+  text-align: center;
+  justify-content: center;
+}
+
+.bg3_p {
+  margin-top: 0;
+  font-size: 18px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+
+.bg3_sub {
+  margin-top: 140px;
+  width: 80%;
+  height: auto;
+
+}
+
+
+.image-container {
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: none;
+}
+
+button {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #dfdfdf;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: none;
+}
+
+#image1 {
+  display: block;
+}
+
+.active {
+  background-color: #333;
+  /* 選択中のボタンの色を指定 */
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  /* 地図画像の最大幅 */
+  margin: 0 auto;
+}
+
+.map-container img {
+  width: 100%;
+  height: auto;
+}
+
+.map-container .logo {
+  position: absolute;
+  width: 20%;
+  /* ロゴ画像の幅を指定 */
+  height: auto;
+}
+
+.logo1 {
+  top: 2%;
+  left: 88%;
+}
+
+.logo2 {
+  top: 26%;
+  left: 0%;
+}
+
+.logo3 {
+  top: 65%;
+  left: 31%;
+}
+
+.en {
+  width: 100vw;
+}
+
+/* 各 dt と dd を横並びにする */
+.info-item {
+  display: flex;
+  align-items: center;
+
+}
+
+
+dt {
+
+  /* ラベル部分の固定幅 */
+  font-weight: bold;
+  color: #333;
+
+}
+
+dt::before {
+  content: "■";
+  font-size: 24px;
+  /* 四角マークのサイズを指定 */
+  margin-left: 10px;
+}
+
+dt::after {
+  content: ":";
+  /* コロンに変更 */
+  margin-left: 10px;
+}
+
+dd {
+  margin: 0;
+  /* デフォルトの余白をリセット */
+
+  color: #555;
+}
+
+/* 台湾の祝祭日のリストを整列 */
+.holiday-list {
+
+  padding: 0;
+  margin: 0;
+}
+
+.holiday-list li {
+  display: grid;
+  /* FlexからGridへ変更 */
+  grid-template-columns: 150px 1fr;
+  justify-content: space-between;
+  /* 祝祭日名と日付を左右に分ける */
+  padding: 4px 0;
+
+}
+
+.holiday-list li span:first-child {
+  font-weight: bold;
+  /* 祝祭日名を太字に */
+}
+
+a {
+
+  margin-left: 70%;
+}
