@@ -14,10 +14,6 @@ h2 {
   vertical-align: bottom;
 }
 
-.logo {
-  padding-top: 40px;
-  width: 90vw;
-}
 
 h3 {
   text-align: center;
@@ -43,16 +39,33 @@ p {
   text-align: left;
 }
 
+.header_container {
+  position: relative;
+  display: inline-block;
+}
+
+
 .header_bg {
-  width: 100vw;
+  width: 95vw;
   height: calc(100vw * 1.8);
+}
+
+.header_logo {
+  position: absolute;
+  top: 50px;
+  /* 画像Aの上部からの距離 */
+  left: 50px;
+  /* 画像Aの左側からの距離 */
+  width: 80vw;
+  /* 画像Bのサイズ */
+
 }
 
 .bg2 {
 
   background: url(/top/image/sp_top_main_bg1.png) no-repeat center center;
   background-size: cover;
-  width: 100vw;
+  width: 95vw;
   height: calc(100vw * 1.1);
   text-align: center;
   justify-content: center;
@@ -77,7 +90,7 @@ p {
   padding-top: 80px;
   background: url(/top/image/sp_top_main_bg2.png) no-repeat center center;
   background-size: cover;
-  width: 100vw;
+  width: 95vw;
   height: calc(100vw * 1.1);
   text-align: center;
   justify-content: center;
@@ -150,7 +163,7 @@ button.active {
 }
 
 .map-container img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -163,7 +176,7 @@ button.active {
 
 .logo1 {
   top: 2%;
-  left: 88%;
+  left: 80%;
 }
 
 .logo2 {
@@ -177,7 +190,7 @@ button.active {
 }
 
 .en {
-  width: 100vw;
+  width: 90vw;
 }
 
 /* 各 dt と dd を横並びにする */
@@ -245,6 +258,11 @@ a {
 
 /* PC版のスタイル */
 @media screen and (min-width: 768px) {
+  .header_bg {
+    width: 100vw;
+    height: calc(100vw * 0.56);
+  }
+
   .image-container {
     display: flex;
     justify-content: center;
