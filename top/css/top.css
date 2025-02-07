@@ -43,7 +43,7 @@ p {
   text-align: left;
 }
 
-.bg1 img {
+.header_bg {
   width: 100vw;
   height: calc(100vw * 1.8);
 }
@@ -130,18 +130,6 @@ button.active {
   background-color: #999;
 }
 
-/* PC版のスタイル */
-@media screen and (min-width: 768px) {
-  .image-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .image-container img {
-    width: 30%;
-  }
-}
 
 
 #image1 {
@@ -253,4 +241,17 @@ dd {
 a {
 
   margin-left: 70%;
+}
+
+/* PC版のスタイル */
+@media screen and (min-width: 768px) {
+  .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .image-container img {
+    width: 30%;
+  }
 }
