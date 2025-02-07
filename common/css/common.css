@@ -12,100 +12,137 @@
   margin: 0 5px;
 }
 /* ここまでパンくずナビゲーション */
-/* header要素 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .list{
-  list-style: none;
-  text-decoration:underline;
-  color:#fff;
-  }
-  li p{
-    color: #fff;
-  }
-  .MenuList {
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 99;
-  }
-  /* メニューアイコンを画面右上に固定しています */
-  .MenuList .menu-icon {
-    cursor: pointer;
-    position: absolute;
-    right: 10px;
-    top: 12px;
-    padding-top: 5px;
-    height: 12px;
-  }
-  /* メニューアイコン（三本線）の真ん中の線です */
-  .MenuList .menu-icon .navicon {
-    background: #fdfbfb; /* 色は自由に変更可能です */
-    display: block;
-    height: 2px; /* 太さ */
-    width: 30px; /* 長さ */
-    position: relative;
-    transition:background .4s ease-out; /* 形が変わる時のアニメーション */
-  }
-  
-  /* メニューアイコン（三本線）の上と下の線を疑似要素で追加 */
-  .MenuList .menu-icon .navicon::before,
-  .MenuList .menu-icon .navicon::after{
-    background: #38373d; /* 色は自由に変更可能です */
-    content: '';
-    display: flex;
-    height:100%;
-    position: absolute;
-    transition: all .4s ease-out; /* 形が変わる時のアニメーション */
-    width: 70%;
-    margin-left: 5px;
-  }
-  .MenuList .menu-icon .navicon::before {top: 10px;} /* 位置を上にずらしています */
-  .MenuList .menu-icon .navicon::after {top: -10px;} /* 位置を下にずらしています */
-  /* 表示されるメニューです */
-  .MenuList .list {
-    background-color: #000;
-    overflow: hidden;
-    max-height: 0; /* ★最初は高さを0にして非表示状態に */
-    transition: max-height .6s; /* 表示されるときのアニメーション */
-    text-align: center;
-  }
-  /* メニュー部分のデザインです */
-  .MenuList .list li:first-of-type {
-    padding-top: 40px;
-  }
-  .MenuList .list li a {
-    display: block;
-    padding:10px 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  /* .MenuList .list li a:hover { */
-    /* background-color: #140d0d; */
-  /* } */
-  /* チェックボックスは常に非表示です */
-  .MenuList .menu-btn {
-    display: none;
-  }
-  /* ▼▼▼以下はチェックボックスがONの時の状態です▼▼▼ */
-  .MenuList .menu-btn:checked ~ .list {
-    max-height: 100%; /* ★チェックボックスがオンの時高さを338pxにして表示させます */
-    transition: max-height 10s;
-  }
-  /* メニューボタンの中央の線を非表示に */
-  .MenuList .menu-btn:checked ~ .menu-icon .navicon {background: transparent;}
-  
-  /* メニューボタンの上下の線を45度傾けて✕印を作ります */
-  .MenuList .menu-btn:checked ~ .menu-icon .navicon::before {
-    transform: rotate(-45deg);top: 0;
-  }
-  .MenuList .menu-btn:checked ~ .menu-icon .navicon::after {transform: rotate(45deg);top: 0;}
-  /* サイトに合わせてオリジナルカスタマイズ */
-  .MenuList .menu-icon {
-    top: 26px;
-  }
-  .MenuList .menu-icon .navicon,
-  .MenuList .menu-icon .navicon::before,
-  .MenuList .menu-icon .navicon::after {
-    background:  #110135;
-  }
-  /* header要素ここまで */
+list-style: none;
+text-decoration:underline;
+color:#fff;
+}
+.list_name p{
+  color: #fff;
+}
+.MenuList {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+/* メニューアイコンを画面右上に固定しています */
+.MenuList .menu-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 12px;
+  padding-top: 5px;
+  height: 12px;
+}
+/* メニューアイコン（三本線）の真ん中の線です */
+.MenuList .menu-icon .navicon {
+  background: #fdfbfb; /* 色は自由に変更可能です */
+  display: block;
+  height: 3px; /* 太さ */
+  width: 30px; /* 長さ */
+left:7px;
+  top: 15px;
+  position: relative;
+  transition:background .10s ease-out; /* 形が変わる時のアニメーション */
+
+
+}
+
+/* メニューアイコン（三本線）の上と下の線を疑似要素で追加 */
+.MenuList .menu-icon .navicon::before,
+.MenuList .menu-icon .navicon::after{
+  background: #38373d; /* 色は自由に変更可能です */
+  content: '';
+  display: flex;
+  height:100%;
+  position: absolute;
+  transition: all .4s ease-out; /* 形が変わる時のアニメーション */
+  width: 70%;
+  margin-left: 5px;
+}
+.MenuList .menu-icon .navicon::before {top: 10px;} /* 位置を上にずらしています */
+.MenuList .menu-icon .navicon::after {top: -10px;} /* 位置を下にずらしています */
+/* 表示されるメニューです */
+.MenuList .list {
+  background-color: #046b1a;
+  overflow: hidden;
+  height: 100vh;
+  max-height: 0; /* ★最初は高さを0にして非表示状態に */
+  transition: max-height .6s; /* 表示されるときのアニメーション */
+  text-align: center;
+}
+/* メニュー部分のデザインです */
+.MenuList .list li:first-of-type {
+  padding-top: 40px;
+}
+.MenuList .list li a {
+  display: block;
+  padding:10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* .MenuList .list li a:hover { */
+  /* background-color: #140d0d; */
+/* } */
+/* チェックボックスは常に非表示です */
+.MenuList .menu-btn {
+  display: none;
+}
+/* ▼▼▼以下はチェックボックスがONの時の状態です▼▼▼ */
+.MenuList .menu-btn:checked ~ .list {
+  max-height: 100%; /* ★チェックボックスがオンの時高さを338pxにして表示させます */
+  transition: max-height 10s;
+}
+/* メニューボタンの中央の線を非表示に */
+.MenuList .menu-btn:checked ~ .menu-icon .navicon {background: transparent;}
+
+/* メニューボタンの上下の線を45度傾けて✕印を作ります */
+.MenuList .menu-btn:checked ~ .menu-icon .navicon::before {
+  transform: rotate(-45deg);top: 0;
+  width: 100%;
+  right: 0px;
+}
+.MenuList .menu-btn:checked ~ .menu-icon .navicon::after {transform: rotate(45deg);top: 0;
+  width: 100%;
+  right: 0px;
+}
+/* サイトに合わせてオリジナルカスタマイズ */
+.MenuList .menu-icon {
+  top: 18px;
+  right: 10px;
+  width: 45px; 
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%  ;
+}
+.MenuList .menu-icon .navicon,
+.MenuList .menu-icon .navicon::before,
+.MenuList .menu-icon .navicon::after {
+
+  background:  #110135;
+}

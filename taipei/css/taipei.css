@@ -1,23 +1,29 @@
 body {
   font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
 }
 body p{
   font-size: 12px;
 }
-div.top_bg{
+h1{
   background-image: url(../image/sp_tp_hd_bg.png);
   width: 100vw;
-  height:calc(100vw*1.8);
+  /* height:667px; */
   background-size: cover;
+  margin: 0 0;
 }
 .top_Page{
   font-weight: bold;
   font-size: 12px;
-  color: rgb(43, 122, 29);
+  color: #fff;  
+  margin-left:130px;
+  line-height: 1.6em;
 }
 .bg_img{
-  width: 50vw;
-  padding:45% 20% ;
+  width: 199px;
+  height: 372px;
+  margin: 112px 80px;
 }
 .sub_picture{
   display: flex;
@@ -30,8 +36,8 @@ h2{
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 200px;
-  width:40vw;
+  height: 70px;
+  width:85vw;
 }
 h2{
 vertical-align: bottom;
@@ -42,4 +48,11 @@ font-size: 24px;
 }
 .attraction{
   vertical-align: middle;
+}
+main{
+  margin: 0 40px 0 8px;
+}
+.attraction_Page{
+  background-color:rgba(108, 186  , 216,0.2);
+  padding: 20px 16px;
 }
