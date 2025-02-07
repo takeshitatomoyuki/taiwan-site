@@ -40,3 +40,7 @@ window.addEventListener('resize', () => {
     showImages(index, activeButton);
   }
 });
+window.addEventListener('load', () => {
+  const firstButton = document.querySelector('.button-container button:first-child');
+  showImages(1, firstButton); // 初期状態で1,2,3を表示
+});
