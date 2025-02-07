@@ -43,9 +43,7 @@ p {
   text-align: left;
 }
 
-.bg1 {
-  background: url(/top/image/sp_top_hd_bg.png) no-repeat center center;
-  background-size: cover;
+.bg1 img {
   width: 100vw;
   height: calc(100vw * 1.8);
 }
