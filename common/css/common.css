@@ -21,7 +21,8 @@
 /* フッター */
 footer {
   width: 100%;
-  font-family: "Noto Sans JP", serif;
+  /* font-family: "Noto Sans JP", serif; */
+
   background-color: #007AB7;
   color: #fff;
   list-style: none;
@@ -52,13 +53,13 @@ footer {
 .ft_text {
   color: #fff;
   font-size: 12px;
+  font-family: Zen Kaku Gothic New;
+
   /* padding-top: ; */
 }
 
 
 /* p119見る */
-
-
 
 
 
