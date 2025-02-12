@@ -74,9 +74,15 @@ height: 180px;
   line-height: 1.6;
 }
 .nm_message{
-
-  border-bottom: 1px #000 solid;
-  padding-bottom: 8px;
+  /* width: 225px; */
+  padding: 12px 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  letter-spacing: 0;
 }
 h3{
   text-align: center;
@@ -138,6 +144,7 @@ position: absolute;
 }
 .access li{
   list-style-type: square;
+  font-size:30px;
 }
 @media screen and (min-width:768px) {
 .MenuList{
