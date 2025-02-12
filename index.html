@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="common/css/reset.css">
   <link rel="stylesheet" href="common/css/common.css">
   <link rel="stylesheet" href="top/css/top.css">
   <title>台湾</title>
@@ -15,9 +16,7 @@
   <!-- team演習JS -->
   <!-- 共通header -->
   <header>
-    <div class="loading-container">
-      <div class="loading-logo"></div>
-    </div>
+
 
 
     <!-- PC版の時表示する　スマホ版の時はdisplay:noneで非表示 -->
@@ -60,25 +59,49 @@
         <source srcset="top/image/pc_top_hd_logo_dai.png" media="(min-width: 768px)">
         <img class="header_logo" src="top/image/sp_top_hd_center_logo.png" alt="header_logo">
       </picture>
+      <div class="loading-container">
+        <div class="loading-logo"></div>
+      </div>
     </div>
   </header>
   <main>
     <div class="bg2">
-      <img class="bg2_sub1" src="top/image/sp_top_flag_image.png" alt=""><br>
-      <p class="bg2_p">Formosa
-        <br>
-        フォルモサ（麗しの島）
-      </p>
-      <img class="bg2_sub2" src="top/image/sp_top_main_fm1.png" alt="">
+      <div class="bg2_container">
+        <div class="bg2_group">
+          <picture class="bg2_sub1">
+            <source class="bg2_sub1" srcset="top/image/pc_top_flag_image.png" media="(min-width: 768px)">
+            <img class="bg2_sub1" src="top/image/sp_top_flag_image.png" alt="">
+          </picture>
+
+          <p class="bg2_p">Formosa
+            <br>
+            フォルモサ（麗しの島）
+          </p>
+        </div>
+        <div class="bg2_group">
+          <picture class="bg2_sub2">
+            <source class="bg2_sub2" srcset="top/image/pc_top_main_fm1.png" media="(min-width: 768px)">
+            <img class="bg2_sub2" src="top/image/sp_top_main_fm1.png" alt="">
+          </picture>
+        </div>
+      </div>
     </div>
     <div class="bg3">
-      <p class="bg3_p text-with-lines">
-        フォルモサは、十六世紀にポルトガル人がエメラルド色の美しい台湾を見つけて発した賛嘆の言葉です。緑にあふれた台湾の美しい風景が、あなたを桃源郷の世界へいざなってくれるでしょう。
-      </p>
-      <img class="bg3_sub" src="top/image/sp_top_main_fm2.png" alt="">
+      <div class="bg3_container">
+        <div class="bg3_group">
+          <p class="bg3_p text-with-lines">
+            フォルモサは、十六世紀にポルトガル人がエメラルド色の美しい台湾を見つけて発した賛嘆の言葉です。緑にあふれた台湾の美しい風景が、あなたを桃源郷の世界へいざなってくれるでしょう。
+          </p>
+        </div>
+        <div class="bg3_group">
+          <picture class="bg3_sub">
+            <source class="bg3_sub" srcset="top/image/pc_top_main_fm2.png" media="(min-width: 768px)">
+            <img class="bg3_sub" src="top/image/sp_top_main_fm2.png" alt="">
+          </picture>
+
+        </div>
+      </div>
     </div>
-
-
     <h2>Gallery<span class="subtitle">ギャラリー</span></h2>
     <div class="gallery">
       <div class="image-container">
@@ -101,26 +124,45 @@
     </div>
 
 
-    <h2>Travel<span>おすすめスポット</span></h2>
-    <p class="text-with-lines">訪れた人々を魅了する「美麗島」台湾。そんな台湾の人気スポットを代表する地を３つのエリアで照会します。様々な風景に誰もが魅了されるでしょう。
-    </p>
 
-    <div class="map-container">
-      <img src="top/image/sp_top_main_tv_mp_mp.png" alt="Map">
-      <img class="logo logo1" src="top/image/sp_top_main_tv_mp_tp.png" alt="Logo 1">
-      <img class="logo logo2" src="top/image/sp_top_main_tv_mp_tc.png" alt="Logo 2">
-      <img class="logo logo3" src="top/image/sp_top_main_tv_mp_tn.png" alt="Logo 3">
+
+
+
+    <h2>Travel<span>おすすめスポット</span></h2>
+    <div class="travel_container"></div>
+    <div class="travel_left">
+      <p class="text-with-lines">訪れた人々を魅了する「美麗島」台湾。そんな台湾の人気スポットを代表する地を３つのエリアで照会します。様々な風景に誰もが魅了されるでしょう。
+      </p>
     </div>
+    <div class="travel_right">
+      <div class="map-container">
+        <img src="top/image/sp_top_main_tv_mp_mp.png" alt="Map">
+        <img class="logo logo1" src="top/image/sp_top_main_tv_mp_tp.png" alt="Logo 1">
+        <img class="logo logo2" src="top/image/sp_top_main_tv_mp_tc.png" alt="Logo 2">
+        <img class="logo logo3" src="top/image/sp_top_main_tv_mp_tn.png" alt="Logo 3">
+      </div>
+    </div>
+
     <h2>Event<span>おすすめイベント</span></h2>
+    <div class="event_container"></div>
+    <div class="bg3_group"></div>
     <h3>台湾ランタンフェスティバル
-      <img class="en" src="top/image/sp_top_main_en1.png" alt="">
+      <picture class="en">
+        <source class="en" srcset="top/image/pc_top_main_en1.png" media="(min-width: 768px)">
+        <img class="en" src="top/image/sp_top_main_en1.png" alt="">
+      </picture>
+
     </h3>
     <h3>開催期間</h3>
     <p>春節 旧暦元日（2月24日～3月2日）</p>
     <p class="text-with-lines">
       春節の風習として「天燈」と呼ばれる紙製のランタンに無病息災などの祈りを書き込み、火種を用いて熱気球と同じ原理で空を飛ばす儀式です。吉祥や邪気払いの意味があります。</p>
     <h3>台北最high新年城<br>カウントダウンパーティー</h3>
-    <img class="en" src="top/image/sp_top_main_en2.png" alt="">
+    <picture class="en">
+      <source class="en" srcset="top/image/sp_top_main_en2.png" media="(min-width: 768px)">
+      <img class="en" src="top/image/sp_top_main_en2.png" alt="">
+    </picture>
+
     <h3>開催期間</h3>
     <p>12月31日～1月1日</p>
     <p class="text-with-lines">台北101では毎年、元日0時から約3分間、ビルを覆い尽くすように新年を祝う花火が舞い上がります。世界中から注目されるイベントの一つです。</p>

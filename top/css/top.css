@@ -3,6 +3,10 @@ body {
   background-color: #f4f4f4;
 }
 
+.loading-container {
+  position: fixed;
+}
+
 h2 {
   background: url(/top/image/sp_top_main_midashi.png) no-repeat;
   background-position: center center;
@@ -115,6 +119,9 @@ p {
   margin-top: 20px;
   text-align: center;
 }
+
+
+
 
 /* 画像はスマホ版では非表示 */
 .image-container img {
@@ -272,4 +279,111 @@ a {
   .image-container img {
     width: 30%;
   }
+
+  .bg2 {
+
+    background: url(/top/image/pc_top_main_bg1.png) no-repeat center center;
+    background-size: cover;
+    width: 100vw;
+    height: calc(100vw * 0.53);
+    text-align: center;
+    justify-content: center;
+  }
+
+
+  .bg2_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .bg3 {
+    padding-top: 80px;
+    background: url(/top/image/pc_top_main_bg2.png) no-repeat center center;
+    background-size: cover;
+    width: 100vw;
+    height: calc(100vw * 0.53);
+    text-align: center;
+    justify-content: center;
+  }
+
+  .bg3_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  travel_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .travel_left {
+    width: 45%;
+    /* 左側のグループの幅 */
+    display: flex;
+
+  }
+
+  .travel_right {
+    margin-left: 50vw;
+    width: 45%;
+    /* 右側のグループの幅 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .map-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    /* 地図画像の最大幅 */
+    margin: 0 auto;
+  }
+
+  .map-container img {
+    width: 90%;
+    height: auto;
+  }
+
+  .map-container .logo {
+    position: absolute;
+    width: 20%;
+    /* ロゴ画像の幅を指定 */
+    height: auto;
+  }
+
+  .logo1 {
+    top: 2%;
+    left: 80%;
+  }
+
+  .logo2 {
+    top: 26%;
+    left: 0%;
+  }
+
+  .logo3 {
+    top: 65%;
+    left: 31%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

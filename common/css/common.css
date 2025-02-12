@@ -105,7 +105,7 @@ footer {
   top: 12px;
   padding-top: 5px;
   height: 12px;
- 
+
 }
 
 /* メニューアイコン（三本線）の真ん中の線です */
@@ -153,7 +153,7 @@ footer {
 /* 位置を下にずらしています */
 /* 表示されるメニューです */
 .MenuList .list {
-  background-color: #046b1a;
+  background-color: #000000;
   overflow: hidden;
   height: 100vh;
   max-height: 0;
@@ -161,6 +161,7 @@ footer {
   transition: max-height .6s;
   /* 表示されるときのアニメーション */
   text-align: center;
+
 }
 
 /* メニュー部分のデザインです */
@@ -173,6 +174,8 @@ footer {
   padding: 10px 20px;
   text-decoration: none;
   text-transform: uppercase;
+  margin-left: 0;
+  color: #fff;
 }
 
 /* .MenuList .list li a:hover { */
