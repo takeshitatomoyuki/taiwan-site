@@ -2,16 +2,22 @@ body {
   font-family: 'Zen Kaku Gothic New', sans-serif;
   font-weight: 400;
   box-sizing: border-box;
+  max-width: 375px;
 }
 body p{
   font-size: 12px;
 }
-h1{
+header{
   background-image: url(../image/sp_tp_hd_bg.png);
   width: 100vw;
   /* height:667px; */
   background-size: cover;
   margin: 0 0;
+}
+.bg_img{
+  width: 199px;
+  height: 372px;
+  margin: 112px 80px;
 }
 .top_Page{
   font-weight: bold;
@@ -20,30 +26,33 @@ h1{
   margin-left:130px;
   line-height: 1.6em;
 }
-.bg_img{
-  width: 199px;
-  height: 372px;
-  margin: 112px 80px;
-}
+
 .sub_picture{
   display: flex;
+  justify-content: space-between;
+}
+.sub_picture img{
+  width: 140px;
 }
 h2{
   background-image: url(../image/sp_tp_main_midashi.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 70px;
-  width:85vw;
+  height: 40px;
+  width:220px;
   vertical-align: bottom;
+  font-weight: 400;
   font-size: 24px;
   }
 
 .sub_title{
-  font-size: 12px;
+  font-size: 12px;  
+  font-weight: 400;
+
 }
 .attraction{
   vertical-align: middle;
@@ -51,7 +60,68 @@ h2{
 main{
   margin: 0 40px 0 8px;
 }
-.attraction_Page{
+.main_image{
+width: 295px;
+height: 180px;
+}
+.produce_text{
   background-color:rgba(108, 186  , 216,0.2);
   padding: 20px 16px;
+  width: 295px;
+  line-height: 1.6;
+}
+.nm_message{
+
+  border-bottom: 1px #000 solid;
+  padding-bottom: 8px;
+}
+h3{
+  text-align: center;
+}
+.point{
+  background-color:rgba(108, 186  , 216,0.2);
+  width: 295px;
+  line-height: 1.6;
+  margin-top: 20px;
+  text-align: center;
+  padding: 8px 0;
+}
+.yabuguti{
+  margin: 0;
+}
+.time{
+  font-weight: bold;
+  margin: 0;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly
+}
+.button{
+  background-image: url(../image/pc_tp_main_nm_yo_btn.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  font-weight:bold;
+  font-size: 12px;  padding: 22px 40px;
+}
+.long{
+  padding: 22px 22px;
+}
+.access_h3{
+border-bottom: 1px #000 solid;
+padding-bottom: 8px;
+}
+ul{
+  list-style-type: none;
+}
+.vehicle{
+  font-size: 12px;
+  font-weight: bold;
+}
+h4::before{content:url(../image/Thumbs.db);
+position: absolute;
+
+}
+.yuuyuucard{
+  width: 100px;
 }
