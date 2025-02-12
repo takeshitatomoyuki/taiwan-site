@@ -1,0 +1,23 @@
+body {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  max-width: 375px;
+}
+
+body p {
+  font-size: 12px;
+}
+
+/* <h1>の背景画像　cssに入れる
+  <img src="image/sp_tn_hd_bg.png" alt=""> */
+
+header {
+  background-image: url(../image/pc_tn_hd_bg.png);
+  width: 100vw;
+  /* height:667px; */
+  background-size: cover;
+  margin: 0 0;
+}
+
+/*   h2のところ<img src="image/sp_tn_main_midash.png" alt="スマートフォン見出し画像"> */
