@@ -315,6 +315,16 @@ a {
 
 /* PC版のスタイル */
 @media screen and (min-width: 768px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    text-align: center;
+
+    font-size: 5.3vw;
+  }
+
   .header_bg {
     width: 100vw;
     height: calc(100vw * 0.56);
@@ -471,11 +481,105 @@ a {
 
   }
 
+  .text-with-lines {
+    font-size: 20px;
+    border-top: 2px solid black;
+    /* 上部に黒線を引く */
+    border-bottom: 2px solid black;
+    /* 下部に黒線を引く */
+    padding: 10px;
+    /* テキスト周りに余白を追加 */
+    text-align: left;
+    line-height: 1.6;
+    margin: 0 8%;
+  }
+
+  p {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 48px;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  dt::before {
+    content: "■";
+    font-size: 3.2vw;
+    /* 四角マークのサイズを指定 */
+    margin-left: 10px;
+  }
+
+  .bg2_sub2 {
+    margin-top: 20px;
+    width: 60vw;
+    height: auto;
+
+  }
+
+  .bg3_sub {
+    width: 60vw;
+    height: auto;
+
+  }
+
+  h2 {
+    background: url(/top/image/sp_top_main_midashi.png) no-repeat bottom center/cover;
+
+    width: 60vw;
+    height: 10vw;
+    margin: 60px 77.5px 40px 77.5px;
+    font-size: 6.4vw;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .date {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  dl {
+    border: solid #333;
+    padding: 20px;
+  }
+
+  dt {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  dd {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  dt::before {
+    content: "■";
+    font-size: 20px;
+    /* 四角マークのサイズを指定 */
+    margin-left: 10px;
+  }
 
 
+  .event_container1 {
+    margin-left: 20px;
+  }
 
-
-
+  .event_container2 {
+    margin-left: 20px;
+  }
 
 
 
