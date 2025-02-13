@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="common/css/reset.css">
   <link rel="stylesheet" href="common/css/common.css">
   <link rel="stylesheet" href="top/css/top.css">
@@ -75,7 +80,7 @@
 
           <p class="bg2_p">Formosa
             <br>
-            フォルモサ（麗しの島）
+            <span class="p_sub">フォルモサ（麗しの島）</span>
           </p>
         </div>
         <div class="bg2_group">
@@ -128,7 +133,7 @@
 
 
 
-    <h2>Travel<span>おすすめスポット</span></h2>
+    <h2>Travel<span class="subtitle">おすすめスポット</span></h2>
     <div class="travel_container"></div>
     <div class="travel_left">
       <p class="text-with-lines">訪れた人々を魅了する「美麗島」台湾。そんな台湾の人気スポットを代表する地を３つのエリアで照会します。様々な風景に誰もが魅了されるでしょう。
@@ -143,29 +148,40 @@
       </div>
     </div>
 
-    <h2>Event<span>おすすめイベント</span></h2>
-    <div class="event_container"></div>
-    <div class="bg3_group"></div>
-    <h3>台湾ランタンフェスティバル
-      <picture class="en">
-        <source class="en" srcset="top/image/pc_top_main_en1.png" media="(min-width: 768px)">
-        <img class="en" src="top/image/sp_top_main_en1.png" alt="">
-      </picture>
+    <h2>Event<span class="subtitle">おすすめイベント</span></h2>
+    <div class="event_wrapper">
+      <div class="event_container1">
+        <div class="event_group1 event_group1_1">
+          <h3>台湾ランタンフェスティバル</h3>
+          <picture class="en">
+            <source class="en" srcset="top/image/pc_top_main_en1.png" media="(min-width: 768px)">
+            <img class="en" src="top/image/sp_top_main_en1.png" alt="">
+          </picture>
+        </div>
 
-    </h3>
-    <h3>開催期間</h3>
-    <p>春節 旧暦元日（2月24日～3月2日）</p>
-    <p class="text-with-lines">
-      春節の風習として「天燈」と呼ばれる紙製のランタンに無病息災などの祈りを書き込み、火種を用いて熱気球と同じ原理で空を飛ばす儀式です。吉祥や邪気払いの意味があります。</p>
-    <h3>台北最high新年城<br>カウントダウンパーティー</h3>
-    <picture class="en">
-      <source class="en" srcset="top/image/sp_top_main_en2.png" media="(min-width: 768px)">
-      <img class="en" src="top/image/sp_top_main_en2.png" alt="">
-    </picture>
+        <div class="event_group1 event_group1_2">
+          <h4>開催期間</h4>
+          <p class="date">春節 旧暦元日（2月24日～3月2日）</p>
+          <p class="text-with-lines">
+            春節の風習として「天燈」と呼ばれる紙製のランタンに無病息災などの祈りを書き込み、火種を用いて熱気球と同じ原理で空を飛ばす儀式です。吉祥や邪気払いの意味があります。</p>
+        </div>
+      </div>
+      <div class="event_container2">
+        <div class="event_group2">
 
-    <h3>開催期間</h3>
-    <p>12月31日～1月1日</p>
-    <p class="text-with-lines">台北101では毎年、元日0時から約3分間、ビルを覆い尽くすように新年を祝う花火が舞い上がります。世界中から注目されるイベントの一つです。</p>
+          <h3 class="party">台北最high新年城<br>カウントダウンパーティー</h3>
+          <picture class="en">
+            <source class="en" srcset="top/image/sp_top_main_en2.png" media="(min-width: 768px)">
+            <img class="en" src="top/image/sp_top_main_en2.png" alt="">
+          </picture>
+        </div>
+        <div class="event_group2">
+          <h4>開催期間</h4>
+          <p class="date">12月31日～1月1日</p>
+          <p class="text-with-lines">台北101では毎年、元日0時から約3分間、ビルを覆い尽くすように新年を祝う花火が舞い上がります。世界中から注目されるイベントの一つです。</p>
+        </div>
+      </div>
+    </div>
     <h2>台湾基本情報</h2>
     <dl class="info-list">
       <div class="info-item">
@@ -206,7 +222,7 @@
       </div>
       <div class="info-item1">
         <dt>台湾の気候・服装</dt>
-        <dd>亜熱帯に属し一年を通して温暖な台湾。しかし北回帰線から南は熱帯で暑く、北部は大陸性気候の影響を受けて冷え込むこともあります。地域差を考慮して服装を準備しましょう。</dd>
+        <dd class="info-item1_1">亜熱帯に属し一年を通して温暖な台湾。しかし北回帰線から南は熱帯で暑く、北部は大陸性気候の影響を受けて冷え込むこともあります。地域差を考慮して服装を準備しましょう。</dd>
       </div>
       <!-- 特別なレイアウトの祝祭日 -->
       <div class="info-item2">

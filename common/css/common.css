@@ -291,13 +291,13 @@ footer {
   width: 100%;
   height: 100%;
   overflow: auto;
-/* 背景色を透明に設定 */
+  /* 背景色を透明に設定 */
   background-color: transparent;
+
 }
 
 /* モーダルコンテンツのスタイル */
-.modal-content
- {
+.modal-content {
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
