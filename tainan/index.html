@@ -27,18 +27,22 @@
 
   <!-- team演習JS -->
   <!-- 共通header -->
+  <!-- ヘッダー -->
   <header>
     <h1>
       <img class="bg_img" src="image/sp_tn_hd_logo_kanji.png" alt="台南漢字ロゴ画像">
     </h1>
 
+    <!-- ヘッダーの右下の説明文 -->
     <p class="top_page">台湾の古都「台南」お寺などの史跡巡りや、リノベエリアの散策が楽しめる、新旧の魅力が交わる街です。</p>
 
 
     <!-- PC版の時表示する　スマホ版の時はdisplay:noneで非表示  -->
     <nav class="icon">
       <ul class="menu_pc">
-        <li><a href="#">TOP</a></li>
+
+        <!-- /index.html -->
+        <li><a href="/index.html">TOP</a></li>
         <li><a href="#">台北</a></li>
         <li><a href="#">台中</a></li>
         <li><a href="#">台南</a></li>
@@ -53,16 +57,16 @@
         <span class="navicon"></span>
       </label>
       <ul class="list">
-        <li class="list_name"><a href="#">
+        <li class="list_name"><a href="/index.html">
             <p>TOP</p>
           </a></li>
-        <li class="list_name"><a href="#">
+        <li class="list_name"><a href="/taipei/index.html">
             <p>台北</p>
           </a></li>
         <li class="list_name"><a href="#">
             <p>台中</p>
           </a></li>
-        <li class="list_name"><a href="#">
+        <li class="list_name"><a href="index.html">
             <p>台南</p>
           </a></li>
       </ul>
@@ -74,10 +78,10 @@
 
 
   <!-- /////////////////////////////////////////////////////-->
-  <!-- ↓ここからmain メイン -->
   <!-- p144見る -->
+  <!-- ↓ここからmain メイン!!!!!!!!!!!!!!! -->
 
-  <!-- p144見る -->
+
   <main>
 
 
@@ -89,8 +93,6 @@
       </ul>
     </nav>
     <!-- ここまでパンくずナビゲーション -->
-
-
 
 
     <!-- 　idとclassの使い分け
@@ -126,6 +128,8 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       <!--画像1  -->
       <img class="main_image" src="image/sp_tn_main_ar1.png" alt="安平老街画像">
 
+
+      <!-- メイン　アトラクションの背景水色１つ目の説明文 -->
       <div>
         <p class="at_text">
           「台湾の京都」の異名を持つ古都・台南。かつて台湾の首都であったことから、重要な史跡が点在し、ノスタルジックなムードが漂っています。17世紀に造られた台湾最古の街は、現在、台湾レトロとも称されており、数々の掘り出し物やお土産、飲食店が立ち並びます。写真スポットとしても人気の高いエリアです。
@@ -141,7 +145,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       </div>
 
 
-
+      <!-- メイン　アトラクションの背景水色2つ目の説明文 -->
       <div class="short">
         <p class="short_text">
           露店めぐりは日中、ノスタルジックな撮影は夜がおすすめです。</p>
@@ -153,6 +157,8 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       <!-- 画像4 -->
       <img src="image/sp_tn_main_ar4.png" alt="赤崁楼画像">
 
+
+      <!-- メイン　アトラクションの背景水色3つ目の説明文 -->
       <div>
         <p class="at_text">
           赤嵌楼は台南中西区の代表的な古跡で、安平区の安平古堡と並んで台南の二大古跡になっています。夜になると、周辺には黄色いライトが灯り、古い建築物をより一層味わい深く演出してくれます。前方の広場ではよく音楽会が催され、台南市民の夜の憩いの場にもなっています。赤嵌楼は、昼も夜も独特の魅力で楽しませてくれるでしょう。
@@ -170,7 +176,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
 
 
 
-
+      <!-- メイン　アトラクションの背景水色4つ目の説明文 -->
       <div class="short">
         <p class="short_text">
           遅い時間帯はライトアップも楽しめます。</p>
@@ -340,6 +346,53 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
     <!-- h2 -->
     <!-- div -->
   </main>
+
+
+  <footer>
+    <div class="footer_sp">
+      <img src="/common/image/sp_flag_image.png" alt="">
+      <!-- <img src="common/image/sp_flag_image.png" alt="台湾の国旗画像" class="footer_flag resized-image"> -->
+      <ul class="ft_box">
+
+        <li class="ft_list"><a href="/index.html" class="ft_text">TOP</>
+        </li>
+
+        <li class="ft_list"><a href="/taipei/index.html" class="ft_text">台北</a></li>
+
+        <li class="ft_list"><a href="#" class="ft_text">台中</a></li>
+
+        <li class="ft_list"><a href="/tainan/index.html" class="ft_text">台南</a></li>
+
+        <li class="ft_list"><a href="#" class="ft_text">当サイトのポリシー</a></li>
+
+        <li class="ft_list"><a href="#" class="ft_text">お問い合わせ</a></li>
+      </ul>
+
+
+
+
+
+      <img class="resized-image" src="/common/image/sp_ft_fb.png" alt="Facebookのページリンクアイコン">
+      <img class="resized-image" src="/common/image/sp_ft_inst.png" alt="Instagramのページリンクアイコン">
+
+      <img class="resized-image" src="common/image/sp_ft_x.png" alt="xのページリンクアイコン">
+
+      <!-- ｐの周りをdivで囲み、クラス名付ける -->
+      <!-- ｐに同じクラス名つける -->
+      <!-- css： 下線はマージンbottom -->
+
+      <p>
+        Copyright (C) TAIWAN Traveler
+      </p>
+    </div>
+    <!-- 
+      <p>
+        <small>
+          Copyright (C) TAIWAN Traveler
+  
+          &copy; Design House Renovations</small>
+      </p> -->
+  </footer>
 
 </body>
 
