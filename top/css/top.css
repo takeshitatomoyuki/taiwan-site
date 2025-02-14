@@ -308,11 +308,14 @@ dd {
   /* 祝祭日名を太字に */
 }
 
-a {
+.top_arrow {
 
-  margin-left: 70%;
+  margin-left: 90%;
 }
 
+.arrow_image {
+  width: 48px;
+}
 
 
 /* PC版のスタイル */
