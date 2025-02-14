@@ -238,14 +238,18 @@ footer {
 
 
 .loading-logo {
-  margin: auto;
+  position: fixed;
+  /* 画面全体に固定表示 */
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url(image/sp_top_hd_center_logo.png);
+  background-image: url(/common/image/pc_tn_ft_logo.png);
   background-color: blue;
   background-size: contain;
   background-repeat: no-repeat;
-  animation: fadeInOut 4s forwards;
+  animation: fadeInOut 2s forwards;
+  pointer-events: none;
 }
 
 @keyframes fadeInOut {
@@ -262,12 +266,7 @@ footer {
   }
 }
 
-.loading-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+
 
 
 /* モーダルのhtml */
