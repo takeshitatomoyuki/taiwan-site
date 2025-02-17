@@ -115,6 +115,8 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
 
       <!-- Attraction 観光名所 見出し-->
 
+      <!--    <h2>Event<span class="subtitle">おすすめイベント</span></h2>  -->
+
       <h2>
         <span class="main_title">Attraction
           <span class="sub_title">観光名所
@@ -155,10 +157,13 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       </div>
 
 
+
+
+
       <h3>赤崁楼</h3>
 
       <!-- 画像4 -->
-      <img src="image/sp_tn_main_ar4.png" alt="画像4">
+      <img class="main_image" src="image/sp_tn_main_ar4.png" alt="画像4">
 
 
       <!-- メイン　アトラクションの背景水色3つ目の説明文 -->
@@ -219,7 +224,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       <h4>担仔麺</h4>
       <p>タンツーメン</p>
       <!-- 画像7 -->
-      <img class="img_grm_1" src="image/sp_tn_main_gr1.png" alt="画像7">
+      <img class="img_grm" src="image/sp_tn_main_gr1.png" alt="画像7">
 
       <div>
         <p class="gourmet_text">台湾の屋台などでもよく食べられている麺料理で、あっさりしたスープにそぼろがトッピングされているのが特長です。「度小月」は各地に支店を持つ人気店 です。</p>
@@ -229,7 +234,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
 
       <!--画像を見る（のモーダル modal）-->
       <!--commonのjsのmodalの中からコピペした  -->
-      <button id="myBtn1">モーダル1を開く</button>
+      <button id="myBtn1">画像を見る</button>
 
       // <div id="myModal1" class="modal">
         // <div class="modal-content">
@@ -239,7 +244,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
         // </div>
 
       // <!-- ボタン2とモーダル2 -->
-      // <button id="myBtn2">モーダル2を開く</button>
+      // <button id="myBtn2">画像を見る</button>
       // <div id="myModal2" class="modal">
         // <div class="modal-content">
           // <span class="close">&times;</span>
@@ -248,7 +253,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
         // </div>
 
       // <!-- ボタン3とモーダル3 -->
-      // <button id="myBtn3">モーダル3を開く</button>
+      // <button id="myBtn3">画像を見る</button>
       // <div id="myModal3" class="modal">
         // <div class="modal-content">
           // <span class="close">&times;</span>
@@ -257,7 +262,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
         // </div>
 
       // <!-- ボタン4とモーダル4 -->
-      // <button id="myBtn4">モーダル4を開く</button>
+      // <button id="myBtn4">画像を見る</button>
       // <div id="myModal4" class="modal">
         // <div class="modal-content">
           // <span class="close">&times;</span>
@@ -274,7 +279,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       <h4>蝦仁飯</h4>
       <p>エビ飯</p>
       <!-- 画像8 -->
-      <img src="image/sp_tn_main_gr2.png" alt="画像8">
+      <img class="img_grm" src="image/sp_tn_main_gr2.png" alt="画像8">
 
       <div>
         <p class="shokai_text">台南10大美食にも選ばれている代表料理です。中でも有名な「矮仔成」は、台南に来ないと味わえない料理として知られており、日本人にも好まれる味です。　</p>
@@ -298,10 +303,13 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
 
 
 
+
+
+
       <h4>小籠包</h4>
       <p>ショウロンポー</p>
       <!-- 画像9 -->
-      <img src="image/sp_tn_main_gr3.png" alt="画像9">
+      <img class="img_grm" src="image/sp_tn_main_gr3.png" alt="画像9">
 
 
       <div>
@@ -316,7 +324,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       <h4>鴨肉飯</h4>
       <p>ヤーロウファン</p>
       <!-- 画像10 -->
-      <img src="image/sp_tn_main_gr4.png" alt="画像10">
+      <img class="img_grm" src="image/sp_tn_main_gr4.png" alt="画像10">
 
       <div>
         <p class="shokai_text">台湾の軽食文化を指す小吃は、台湾の人々の日々の食生活に欠かせないものとなっています。中でも「亞德當歸鴨」の鴨肉飯は人気の一品です。</p>
@@ -350,17 +358,21 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
         <p class="midashi_text">美しい蓮の花々が咲く白河地区。 自然に囲まれて、至福のひとときを過ごしませんか？ </p>
       </div>
 
+
+
       <h4>白河蓮花</h4>
       <!-- 画像11 -->
-      <img src="image/sp_tn_main_hl1.png" alt="画像11">
+      <img class="main_image" src="image/sp_tn_main_hl1.png" alt="画像11">
 
       <div>
         <p class="shokai_text">白河地区は、蓮の栽培が盛んであり、美しい蓮の花が咲く景観で知られています。特に夏には蓮の花が最盛期を迎えるため、白河蓮花節などのイベントが開催されて多くの観光客が訪れます。
         </p>
       </div>
 
+
+
       <!-- 画像12 -->
-      <img src="image/sp_tn_main_hl2.png" alt="画像12">
+      <img class="main_image" src="image/sp_tn_main_hl2.png" alt="画像12">
 
       <div>
         <p class="shokai_text">白河地区の蓮花は「台南白河蓮花」とも呼ばれています。台南市の観光や文化の象徴の一つとされており、地元の経済や観光に重要な役割を果たしています。</p>

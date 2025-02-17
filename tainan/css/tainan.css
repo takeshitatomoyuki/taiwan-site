@@ -88,6 +88,29 @@ h2 {
 
 
 
+/* --------------------------------------------- */
+/*     <h2>Event<span class="subtitle">おすすめイベント</span></h2> */
+
+
+/* 
+h2 {
+  background: url(/top/image/sp_top_main_midashi.png) no-repeat bottom center/cover;
+
+  width: 60vw;
+  height: 10vw;
+  margin: 60px 77.5px 40px 77.5px;
+  font-size: 6.4vw;
+  font-weight: 400;
+  text-align: center;
+} */
+
+/* 
+.subtitle {
+  font-size: 4.3vw;
+  margin-left: 16px;
+}
+ */
+/* --------------------------------------------- */
 
 /*<h2、h3、h4>  */
 
@@ -103,14 +126,18 @@ h2 {
 }
 
 
-/* <h3>　共通見出し*/
+
+/* <h3>【共通見出し 2箇所】 */
+
 /*安平老街、赤崁楼< */
 h3 {
   text-align: center;
 }
 
 
-/* <h4>　共通見出し 漢字 */
+
+
+/* <h4>【共通見出し 5箇所】 */
 /*グルメの4箇所・ヒーリングの1箇所
 
 担仔麺（タンツーメン）、
@@ -119,14 +146,25 @@ h3 {
 鴨肉飯（ヤーロウファン）
 白河蓮花（ヒーリングに有り）
 
-/* 画像1（安平老街）のクラス名： main_image */
+
+
+/* ↓ 【共通クラス4箇所あり】 */
+/*
+attractioの
+画像1（安平老街）、
+画像4（赤崁楼）、
+
+healingの
+画像11（白河蓮花）、
+画像12（葉の上に人）
+クラス名： main_image */
+
 .main_image {
   width: 90vw;
   height: auto;
 }
 
-
-/* ↓　（共通2箇所あり） */
+/* ↓ 【共通2箇所あり】 */
 /* アトラクション（attraction）の水色説明（長文）の
 /*クラス名：at_text */
 .at_text {
@@ -158,9 +196,7 @@ h3 {
 
 
 
-
-
-/* ↓　（共通2箇所あり） */
+/* ↓ 【共通2箇所あり】 */
 /*アトラクションの水色説明文（短文）のdivの
 クラス名：short */
 .short {
@@ -180,8 +216,7 @@ divのクラス名：gr */
 
 
 
-
-/* ↓　（共通2箇所あり） */
+/* ↓ 【共通2箇所あり】 */
 /* アトラクション（attraction）の水色説明（短文）の*/
 /*クラス名：short */
 .short_text {
@@ -313,7 +348,7 @@ input[type="submit"] {
 
 
 /* グルメ画像1 */
-.img_grm_1 {
+.img_grm1 {
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
