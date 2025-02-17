@@ -334,11 +334,22 @@ divのクラス名：gr */
 myModal1" class="modal">
         // <div class="modal-content"> */
 
+
+.modal_btn {
+  margin-left: 70vw;
+}
+
+.modal_img {
+  width: 300px;
+  height: auto;
+}
+
+
 #myBtn1 {
   border: 2px solid #EDA184;
   width: 120px;
   height: 36px;
-  margin-left: 70vw;
+
 
 }
 
