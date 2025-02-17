@@ -127,26 +127,28 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
 
 
       <!--画像1  -->
-      <img class="main_image" src="image/sp_tn_main_ar1.png" alt="安平老街画像">
+      <img class="main_image" src="image/sp_tn_main_ar1.png" alt="画像1">
 
 
-      <!-- メイン　アトラクションの背景水色１つ目の説明文 -->
+      <!-- メインの水色説明文1 -->
+
       <div>
         <p class="at_text">
           「台湾の京都」の異名を持つ古都・台南。かつて台湾の首都であったことから、重要な史跡が点在し、ノスタルジックなムードが漂っています。17世紀に造られた台湾最古の街は、現在、台湾レトロとも称されており、数々の掘り出し物やお土産、飲食店が立ち並びます。写真スポットとしても人気の高いエリアです。
         </p>
       </div>
 
-      <div class="sub_picture">
+      <div class="sub_image">
         <!-- 画像2 -->
-        <img src="image/sp_tn_main_ar2.png" alt="安平老街サブ画像1">
+        <img src="image/sp_tn_main_ar2.png" alt="画像2">
 
         <!-- 画像3 -->
-        <img src="image/sp_tn_main_ar3.png" alt="安平老街サブ画像2">
+        <img src="image/sp_tn_main_ar3.png" alt="画像3">
       </div>
 
 
-      <!-- メイン　アトラクションの背景水色2つ目の説明文 -->
+      <!-- メインの水色説明文2-->
+
       <div class="short">
         <p class="short_text">
           露店めぐりは日中、ノスタルジックな撮影は夜がおすすめです。</p>
@@ -156,7 +158,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       <h3>赤崁楼</h3>
 
       <!-- 画像4 -->
-      <img src="image/sp_tn_main_ar4.png" alt="赤崁楼画像">
+      <img src="image/sp_tn_main_ar4.png" alt="画像4">
 
 
       <!-- メイン　アトラクションの背景水色3つ目の説明文 -->
@@ -166,18 +168,18 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
         </p>
       </div>
 
-      <div class="sub_picture">
+      <div class="sub_image">
         <!-- 画像5 -->
-        <img src="image/sp_tn_main_ar5.png" alt="赤崁楼サブ画像1">
+        <img src="image/sp_tn_main_ar5.png" alt="画像5">
 
 
         <!-- 画像6 -->
-        <img src="image/sp_tn_main_ar6.png" alt="赤崁楼サブ画像2">
+        <img src="image/sp_tn_main_ar6.png" alt="画像6">
       </div>
 
 
 
-      <!-- メイン　アトラクションの背景水色4つ目の説明文 -->
+      <!-- アトラクションの背景水色4つ目の説明文 -->
       <div class="short">
         <p class="short_text">
           遅い時間帯はライトアップも楽しめます。</p>
@@ -217,7 +219,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       <h4>担仔麺</h4>
       <p>タンツーメン</p>
       <!-- 画像7 -->
-      <img class="img_grm_1" src="image/sp_tn_main_gr1.png" alt="度小月画像">
+      <img class="img_grm_1" src="image/sp_tn_main_gr1.png" alt="画像7">
 
       <div>
         <p class="gourmet_text">台湾の屋台などでもよく食べられている麺料理で、あっさりしたスープにそぼろがトッピングされているのが特長です。「度小月」は各地に支店を持つ人気店 です。</p>
@@ -225,22 +227,43 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
 
       <!-- 画像を見るボタン -->
 
+      <!--画像を見る（のモーダル modal）-->
+      <!--commonのjsのmodalの中からコピペした  -->
+      <button id="myBtn1">モーダル1を開く</button>
 
-      <div class="btn">
-        <a href="#">
-          <p><input type="submit" value="画像を見る▶">
-          </p>
-        </a>
-      </div>
+      // <div id="myModal1" class="modal">
+        // <div class="modal-content">
+          // <span class="close">&times;</span>
+          // <p>モーダル1の内容 画像をここに貼る</p>
+          // </div>
+        // </div>
 
+      // <!-- ボタン2とモーダル2 -->
+      // <button id="myBtn2">モーダル2を開く</button>
+      // <div id="myModal2" class="modal">
+        // <div class="modal-content">
+          // <span class="close">&times;</span>
+          // <p>モーダル2の内容</p>
+          // </div>
+        // </div>
 
+      // <!-- ボタン3とモーダル3 -->
+      // <button id="myBtn3">モーダル3を開く</button>
+      // <div id="myModal3" class="modal">
+        // <div class="modal-content">
+          // <span class="close">&times;</span>
+          // <p>モーダル3の内容</p>
+          // </div>
+        // </div>
 
-      <div id="myModal" class="modal">
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <p>ここにモーダルの内容を記述します。</p>
-        </div>
-      </div>
+      // <!-- ボタン4とモーダル4 -->
+      // <button id="myBtn4">モーダル4を開く</button>
+      // <div id="myModal4" class="modal">
+        // <div class="modal-content">
+          // <span class="close">&times;</span>
+          // <p>モーダル4の内容</p>
+          // </div>
+        // </div>
 
 
 
@@ -251,7 +274,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       <h4>蝦仁飯</h4>
       <p>エビ飯</p>
       <!-- 画像8 -->
-      <img src="image/sp_tn_main_gr2.png" alt="矮仔成画像">
+      <img src="image/sp_tn_main_gr2.png" alt="画像8">
 
       <div>
         <p class="shokai_text">台南10大美食にも選ばれている代表料理です。中でも有名な「矮仔成」は、台南に来ないと味わえない料理として知られており、日本人にも好まれる味です。　</p>
@@ -278,7 +301,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       <h4>小籠包</h4>
       <p>ショウロンポー</p>
       <!-- 画像9 -->
-      <img src="image/sp_tn_main_gr3.png" alt="上海華都小吃画像">
+      <img src="image/sp_tn_main_gr3.png" alt="画像9">
 
 
       <div>
@@ -293,7 +316,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       <h4>鴨肉飯</h4>
       <p>ヤーロウファン</p>
       <!-- 画像10 -->
-      <img src="image/sp_tn_main_gr4.png" alt="亞德當歸鴨画像">
+      <img src="image/sp_tn_main_gr4.png" alt="画像10">
 
       <div>
         <p class="shokai_text">台湾の軽食文化を指す小吃は、台湾の人々の日々の食生活に欠かせないものとなっています。中でも「亞德當歸鴨」の鴨肉飯は人気の一品です。</p>
@@ -329,7 +352,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
 
       <h4>白河蓮花</h4>
       <!-- 画像11 -->
-      <img src="image/sp_tn_main_hl1.png" alt="蓮画像1">
+      <img src="image/sp_tn_main_hl1.png" alt="画像11">
 
       <div>
         <p class="shokai_text">白河地区は、蓮の栽培が盛んであり、美しい蓮の花が咲く景観で知られています。特に夏には蓮の花が最盛期を迎えるため、白河蓮花節などのイベントが開催されて多くの観光客が訪れます。
@@ -337,7 +360,7 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
       </div>
 
       <!-- 画像12 -->
-      <img src="image/sp_tn_main_hl2.png" alt="蓮画像2">
+      <img src="image/sp_tn_main_hl2.png" alt="画像12">
 
       <div>
         <p class="shokai_text">白河地区の蓮花は「台南白河蓮花」とも呼ばれています。台南市の観光や文化の象徴の一つとされており、地元の経済や観光に重要な役割を果たしています。</p>
@@ -394,6 +417,10 @@ CSSは同じ要素に対してのデザインが2回記述されている場合�
           &copy; Design House Renovations</small>
       </p> -->
   </footer>
+  <script src="/common/js/modal.js">
+
+  </script>
+
 
 </body>
 

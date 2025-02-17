@@ -59,19 +59,18 @@ header {
 
 /* /////////////////////////////////////////////////////// */
 /* -------------------------------------------------- */
-/* ↓ここからメイン */
+/*  ↓ここから main(メイン) ↓  */
 
 
-.sub_picture {
-  display: flex;
-  justify-content: space-between;
+main {
+  margin: 0 40px 0 8px;
 }
 
-.sub_picture img {
-  width: 45vw;
-  height: auto;
-}
 
+
+/*  ↓ attraction ページ   */
+
+/* <h2>の「Attraction 観光名所」見出し */
 h2 {
   background-image: url(../image/sp_tn_main_midash.png);
   background-repeat: no-repeat;
@@ -87,10 +86,115 @@ h2 {
   font-size: 24px;
 }
 
+
+
+
+/*<h2、h3、h4>  */
+
+/* <h2>の中の「attraction」 見出し クラス名：main_title */
+
+
+
+/*<h2>*/
+/* の中の「観光名所」見出し　クラス名： sub_title（サブタイトル） */
 .sub_title {
   font-size: 12px;
   font-weight: 400;
 }
+
+
+/* <h3>　共通見出し*/
+/*安平老街、赤崁楼< */
+h3 {
+  text-align: center;
+}
+
+
+/* <h4>　共通見出し 漢字 */
+/*グルメの4箇所・ヒーリングの1箇所
+
+担仔麺（タンツーメン）、
+蝦仁飯（エビ飯）、
+小籠包（ショウロンポー）、
+鴨肉飯（ヤーロウファン）
+白河蓮花（ヒーリングに有り）
+
+/* 画像1（安平老街）のクラス名： main_image */
+.main_image {
+  width: 90vw;
+  height: auto;
+}
+
+
+/* ↓　（共通2箇所あり） */
+/* アトラクション（attraction）の水色説明（長文）の
+/*クラス名：at_text */
+.at_text {
+  background-color: rgba(108, 186, 216, 0.2);
+  padding: 20px 16px;
+  width: 80vw;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+
+
+/* 画像2、3、5、6のdivのクラス名：sub_image  */
+.sub_image {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* ↓これどの位置に記述するか保留 */
+/* 画像2、3、5，6（sub_image）を指すが保留 sub_picture img  */
+.sub_picture img {
+  width: 45vw;
+  height: auto;
+}
+
+/*  ↑これどの位置に記述するか保留 */
+
+
+
+
+
+/* ↓　（共通2箇所あり） */
+/*アトラクションの水色説明文（短文）のdivの
+クラス名：short */
+.short {
+  background-color: rgba(108, 186, 216, 0.2);
+  width: 295px;
+  line-height: 1.6;
+  margin-top: 20px;
+  text-align: center;
+  padding: 8px 0;
+}
+
+
+
+/*  グルメ、ヒーリングの */
+/* 共通説明(短文) テキスト 
+divのクラス名：gr */
+
+
+
+
+/* ↓　（共通2箇所あり） */
+/* アトラクション（attraction）の水色説明（短文）の*/
+/*クラス名：short */
+.short_text {
+  margin: 0;
+}
+
+.time {
+  font-weight: bold;
+  margin: 0;
+}
+
+
+
 
 
 /* vertical-align」を「縦方向の揃え位置 
@@ -101,52 +205,6 @@ middle:中央揃え
   vertical-align:middle;
 } */
 
-
-main {
-  margin: 0 40px 0 8px;
-}
-
-.main_image {
-  width: 90vw;
-  height: auto;
-}
-
-
-.at_text {
-  background-color: rgba(108, 186, 216, 0.2);
-  padding: 20px 16px;
-  width: 80vw;
-  margin: 0 auto;
-  line-height: 1.6;
-}
-
-h3 {
-  text-align: center;
-}
-
-
-
-
-
-
-/* Attraction アトラクション　短文説明 */
-.short {
-  background-color: rgba(108, 186, 216, 0.2);
-  width: 295px;
-  line-height: 1.6;
-  margin-top: 20px;
-  text-align: center;
-  padding: 8px 0;
-}
-
-.short_text {
-  margin: 0;
-}
-
-.time {
-  font-weight: bold;
-  margin: 0;
-}
 
 
 
@@ -167,7 +225,14 @@ h3 {
 
 /* /////////////////////////////////////////////////////// */
 
-/* ↓Gourmet グルメ */
+/* ↓ グルメ　Gourmet */
+
+
+
+/*  グルメ、ヒーリングの */
+/* 共通説明(短文) テキスト 
+divのクラス名：gr */
+
 /*  グルメ短文　台南でしか味わえない～*/
 /* .gr_syokai {
 
@@ -175,7 +240,8 @@ h3 {
 
 
 
-/* 長文説明 */
+/* グルメ共通紹介(長文)テキスト */
+/* 蝦仁飯(エビ飯) */
 
 .shokai_text {
   width: 75vw;
