@@ -71,7 +71,8 @@ main {
 /*  ↓ attraction ページ   */
 
 /* <h2>の「Attraction 観光名所」見出し */
-h2 {
+
+/* h2 {
   background-image: url(../image/sp_tn_main_midash.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -84,7 +85,7 @@ h2 {
   vertical-align: bottom;
   font-weight: 400;
   font-size: 24px;
-}
+} */
 
 
 
@@ -92,7 +93,7 @@ h2 {
 /*     <h2>Event<span class="subtitle">おすすめイベント</span></h2> */
 
 
-/* 
+
 h2 {
   background: url(/top/image/sp_top_main_midashi.png) no-repeat bottom center/cover;
 
@@ -102,14 +103,14 @@ h2 {
   font-size: 6.4vw;
   font-weight: 400;
   text-align: center;
-} */
+}
 
-/* 
+
 .subtitle {
   font-size: 4.3vw;
   margin-left: 16px;
 }
- */
+
 /* --------------------------------------------- */
 
 /*<h2、h3、h4>  */
@@ -120,11 +121,12 @@ h2 {
 
 /*<h2>*/
 /* の中の「観光名所」見出し　クラス名： sub_title（サブタイトル） */
+/* 
 .sub_title {
   font-size: 12px;
   font-weight: 400;
 }
-
+ */
 
 
 /* <h3>【共通見出し 2箇所】 */
@@ -137,18 +139,19 @@ h3 {
 
 
 
-/* <h4>【共通見出し 5箇所】 */
+/* <h3>クラス名：main_mds_mds
+【共通見出し 5箇所】 */
 /*グルメの4箇所・ヒーリングの1箇所
-
+/* 
 担仔麺（タンツーメン）、
 蝦仁飯（エビ飯）、
 小籠包（ショウロンポー）、
 鴨肉飯（ヤーロウファン）
-白河蓮花（ヒーリングに有り）
+白河蓮花（ヒーリングに有り）*/
 
 
 
-/* ↓ 【共通クラス4箇所あり】 */
+/* ↓ ｛画像の共通クラス4箇所あり｝ */
 /*
 attractioの
 画像1（安平老街）、
@@ -259,7 +262,7 @@ middle:中央揃え
 
 
 /* /////////////////////////////////////////////////////// */
-
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 /* ↓ グルメ　Gourmet */
 
 
@@ -316,7 +319,18 @@ divのクラス名：gr */
 /* 
 
 /* ------------------------------------- */
-/*画像を見るの囲み CSSコード */
+/*画像を見るボタン */
+/* #myBtn1 */
+
+/* htmlだと
+myModal1" class="modal">
+        // <div class="modal-content"> */
+
+#myBtn1 {
+  width: 120px;
+  height: 36px;
+
+}
 
 /* ボタン太さ：カンプでは2 */
 /* 幅：カンプではw120 h36px */
