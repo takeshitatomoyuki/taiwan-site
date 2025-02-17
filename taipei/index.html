@@ -18,27 +18,36 @@
 <header>
      <h1><img class="bg_img" src="image/sp_tp_hd_logo_kanji.png" alt=""> </h1><p class="top_Page">台湾市は台湾の中心地です。活気にあふれる街台北では、さまざまな建物や台北を生きる人々の美しい風景を見ることができます。  </p>
  
-  <!-- PC版の時表示する　スマホ版の時はdisplay:noneで非表示  -->
-<nav class="icon">
+<!-- PC版の時表示する　スマホ版の時はdisplay:noneで非表示 -->
+    <!-- <nav class="icon">
   <ul class="menu_pc">
     <li><a href="#">TOP</a></li>
     <li><a href="#">台北</a></li>
     <li><a href="#">台中</a></li>
     <li><a href="#">台南</a></li>
   </ul></nav>
-<!-- スマホ版の時表示する　PC版の時はdisplay:noneで非表示 -->
-<nav class="MenuList">
-  <input class="menu-btn" type="checkbox" id="menu-btn">
-  <label class="menu-icon" for="menu-btn">
-    <span class="navicon"></span>
-  </label>
-  <ul class="list">
-    <li class="list_name"><a href="#"><p>TOP</p></a></li>
-    <li class="list_name"><a href="#"><p>台北</p></a></li>
-    <li class="list_name"><a href="#"><p>台中</p></a></li>
-    <li class="list_name"><a href="#"><p>台南</p></a></li>
-  </ul>
-  </nav>
+</header> -->
+    <!-- スマホ版の時表示する　PC版の時はdisplay:noneで非表示 -->
+    <nav class="MenuList">
+      <input class="menu-btn" type="checkbox" id="menu-btn">
+      <label class="menu-icon" for="menu-btn">
+        <span class="navicon"></span>
+      </label>
+      <ul class="list">
+        <li><a href="index.html">
+            <p>TOP</p>
+          </a></li>
+        <li><a href="/taipei/index.html">
+            <p>台北</p>
+          </a></li>
+        <li><a href="#">
+            <p>台中</p>
+          </a></li>
+        <li><a href="/tainan/index.html">
+            <p>台南</p>
+          </a></li>
+      </ul>
+    </nav>
   </header>
 
 
@@ -47,13 +56,13 @@
     <!-- パンくずナビゲーション -->
   <nav aria-label="page">
     <ul class="taiwan">
-      <li><a href="">Top</a></li>
-      <li aria-current="page">現在のページ</li>
+      <li><a href="../index.html">Top</a></li>
+      <li aria-current="page">台北</li>
     </ul>
   </nav>
   <!-- ここまでパンくずナビゲーション -->
 
-<section id="Attraction">
+<section id="attraction">
    <h2>
     <span class="main_title">Attraction
       <span class="sub_title"> 観光名所
@@ -73,7 +82,7 @@
       <img src="image/sp_tp_main_ar3.png" alt="">
     </div>
     <div class="point">
-      <p class="yabuguti">幻想的な夕暮れがねらい目</p>
+      <p class="">幻想的な夕暮れがねらい目</p>
       <p class="time">15:00~19:00</p>
     </div>
 
@@ -86,7 +95,7 @@
             <img src="image/sp_tp_main_ar6.png" alt=""> 
         </div>
        <div class="point">
-          <p class="yabuguti">
+          <p class="">
             展望台営業時間帯
           </p>
           <p class="time">
@@ -105,23 +114,46 @@
   <p class="nm_message">台北観光の夜の目玉と言えば、なんと言っても夜市（ナイトマーケット）があげられます。 毎日市内の各所で開かれており、夕方から夜遅くまで多くの人々で賑わっています。 絶品Ｂ級グルメ・小吃からファッション、ゲームまで様々なお店が集まっています。
   </p>
     <p><img  class="main_image"   src="image/sp_tp_main_nm1.png" alt=""></p> 
-
-<button id="myBtn">寧夏夜市</button>
-
-  <div id="myModal" class="modal">
-    <div class="modal-content">
+ 
+ 
+    <button id="myBtn1">寧夏夜市</button>
+    <div id="myModal1" class="modal">
+     <div class="modal-content">
       <span class="close">&times;</span>
       <p><img src="image/sp_tp_main_nm_yo1.png"></p>
-    </div>
-  </div>   
-  <div class="flex"> 
-    <p class="button">寧夏夜市</p>
-    <p class="button long">饒河街観光夜市</p> 
   </div>
-    <div class="flex"> 
-      <p class="button">士林夜市</p>
-      <p class="button">通化夜市</p> </div>
+   </div>
+    
+  <!-- ボタン2とモーダル2 -->
+    <button id="myBtn2">饒河街観光夜市</button>
+  <div id="myModal2" class="modal">
+     <div class="modal-content">
+      <span class="close">&times;</span>
+     <p><img src="image/sp_tp_main_nm_yo2.png"></p>
+   </div>
+   </div>
+    
+   <!-- ボタン3とモーダル3 -->
+    <button id="myBtn3">士林夜市</button>
+    <div id="myModal3" class="modal">
+    <div class="modal-content">
+     <span class="close">&times;</span>
+     <p><img src="image/sp_tp_main_nm_yo3.png"></p>
+     </div>
+   </div>
+    
+   <!-- ボタン4とモーダル4 -->
+   <button id="myBtn4">通化夜市</button>
+ <div id="myModal4" class="modal">
+   <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><img src="image/sp_tp_main_nm_yo4.png"></p>
+     </div>
+     </div>
 
+
+
+      <section id="access"></section>
     <h2>
       <span class="main_title">
         Access
@@ -135,10 +167,9 @@
   各地へのアクセスにご利用ください。
 </h3>
       <p>
-        <img src="image/sp_tp_main_ac1.png" alt="">
+        <img class="bg_access" src="image/sp_tp_main_ac1.png" alt="">
       </p>
-      <ul class="access">
-      <!-- <h4> </h4> -->
+      <ul class="transporation">
        <li>
         <span class="vehicle">地下鉄</span>
         <span class="sub_title" >(初乗り20元)</span>
@@ -176,5 +207,48 @@
       </ul>
  </main>
 </body>
+<footer>
+  <div class="footer_sp">
+    <img src="../common/image/sp_flag_image.png" alt="台湾の国旗画像" class="footer_flag resized-image">
+    <ul class="ft_box">
+
+      <li class="ft_list"><a href="index.html" class="ft_text">TOP</a></li>
+
+      <li class="ft_list"><a href="/taipei/index.html" class="ft_text">台北</a></li>
+
+      <li class="ft_list"><a href="#" class="ft_text">台中</a></li>
+
+      <li class="ft_list"><a href="/tainan/index.html" class="ft_text">台南</a></li>
+
+      <li class="ft_list"><a href="#" class="ft_text">当サイトのポリシー</a></li>
+
+      <li class="ft_list"><a href="#" class="ft_text">お問い合わせ</a></li>
+    </ul>
+
+
+
+
+
+    <img class="resized-image" src="../common/image/sp_ft_fb.png" alt="Facebookのページリンクアイコン">
+    <img class="resized-image" src="../common/image/sp_ft_inst.png" alt="Instagramのページリンクアイコン">
+
+    <img class="resized-image" src="../common/image/sp_ft_x.png" alt="xのページリンクアイコン">
+
+    <!-- ｐの周りをdivで囲み、クラス名付ける -->
+    <!-- ｐに同じクラス名つける -->
+    <!-- css： 下線はマージンbottom -->
+
+    <p>
+      Copyright (C) TAIWAN Traveler
+    </p>
+  </div>
+  <!-- 
+    <p>
+      <small>
+        Copyright (C) TAIWAN Traveler
+
+        &copy; Design House Renovations</small>
+    </p> -->
+</footer>
 <script src="../common/js/modal.js"></script>
 </html>

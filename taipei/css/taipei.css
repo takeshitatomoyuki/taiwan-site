@@ -3,14 +3,15 @@ body {
   font-weight: 400;
   box-sizing: border-box;
   max-width: 375px;
+  width: 100%;
+  margin: 0;
 }
 body p{
   font-size: 12px;
 }
 header{
   background-image: url(../image/sp_tp_hd_bg.png);
-  width: 100vw;
-  /* height:667px; */
+  width: 100%;
   background-size: cover;
   margin: 0 0;
 }
@@ -18,7 +19,7 @@ header{
   display: none;
 }
 .bg_img{
-  width: 199px;
+  /* width: 199px; */
   height: 372px;
   margin: 112px 80px;
 }
@@ -26,17 +27,19 @@ header{
   font-weight: bold;
   font-size: 12px;
   color: #fff;  
-  margin-left:130px;
+  margin-left:10%;
   line-height: 1.6em;
 }
 
 .sub_picture{
   display: flex;
-  justify-content: space-between;
+  width:300px;
+ justify-content: space-between;
 }
 .sub_picture img{
   width: 140px;
 }
+
 h2{
   background-image: url(../image/sp_tp_main_midashi.png);
   background-repeat: no-repeat;
@@ -58,7 +61,8 @@ h2{
 
 }
 main{
-  margin: 0 40px 0 8px;
+  margin: 0 0px 0 8px;
+  text-align: justify;
 }
 .main_image{
 width: 295px;
@@ -71,7 +75,6 @@ height: 180px;
   line-height: 1.6;
 }
 .nm_message{
-  /* width: 225px; */
   padding: 12px 0;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
@@ -92,9 +95,6 @@ h3{
   text-align: center;
   padding: 8px 0;
 }
-.yabuguti{
-  margin: 0;
-}
 .time{
   font-weight: bold;
   margin: 0;
@@ -103,27 +103,52 @@ h3{
   display: flex;
   justify-content: space-evenly
 }
-.button{
+#myBtn1{
   background-image: url(../image/pc_tp_main_nm_yo_btn.png);
   background-repeat: no-repeat;
   background-size:contain;
   font-weight:bold;
   font-size: 12px;  padding: 22px 40px;
+  border-color: transparent;
+  background-color: #fff;
 }
-#myBtn{
+#myBtn2{
+  background-image: url(../image/pc_tp_main_nm_yo_btn.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  font-weight:bold;
+  font-size: 12px;  padding: 22px 22px;
+  border-color: transparent;
+  background-color: #fff;
+}
+#myBtn3{
   background-image: url(../image/pc_tp_main_nm_yo_btn.png);
   background-repeat: no-repeat;
   background-size:contain;
   font-weight:bold;
   font-size: 12px;  padding: 22px 40px;
+  border-color: transparent;
+  background-color: #fff;
 }
-
+#myBtn4{
+  background-image: url(../image/pc_tp_main_nm_yo_btn.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  font-weight:bold;
+  font-size: 12px;  padding: 22px 40px;
+  border-color: transparent;
+  background-color: #fff;
+}
 .long{
   padding: 22px 22px;
 }
 .access_h3{
 border-bottom: 1px #000 solid;
 padding-bottom: 8px;
+}
+.bg_access{
+  width:100%;
+  margin: 0 0;
 }
 ul{
   list-style-type: none;
