@@ -139,6 +139,7 @@ h3 {
 
 
 
+/* ↓グルメの担仔麺などの太字 */
 
 /* <h3>クラス名：main_mds_mds
 【共通見出し 5箇所】 */
@@ -150,6 +151,7 @@ h3 {
 鴨肉飯（ヤーロウファン）
 白河蓮花（ヒーリングに有り）*/
 
+/* ↑　グルメの担仔麺などの太字 */
 
 
 /* ↓ ｛画像の共通クラス4箇所あり｝ */
@@ -266,7 +268,10 @@ middle:中央揃え
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 /* ↓ グルメ　Gourmet */
 
-
+/* グルメの中のフリガナ */
+.gr_ruby {
+  text-align: center;
+}
 
 /*  グルメ、ヒーリングの */
 /* 共通説明(短文) テキスト 
@@ -319,6 +324,8 @@ divのクラス名：gr */
 } */
 /* 
 
+
+
 /* ------------------------------------- */
 /*画像を見るボタン */
 /* #myBtn1 */
@@ -328,9 +335,27 @@ myModal1" class="modal">
         // <div class="modal-content"> */
 
 #myBtn1 {
+  border: 2px solid #EDA184;
   width: 120px;
   height: 36px;
+}
 
+#myBtn2 {
+  border: 2px solid #EDA184;
+  width: 120px;
+  height: 36px;
+}
+
+#myBtn3 {
+  border: 2px solid #EDA184;
+  width: 120px;
+  height: 36px;
+}
+
+#myBtn4 {
+  border: 2px solid #EDA184;
+  width: 120px;
+  height: 36px;
 }
 
 /* ボタン太さ：カンプでは2 */
