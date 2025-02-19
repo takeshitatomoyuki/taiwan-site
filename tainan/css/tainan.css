@@ -290,8 +290,9 @@ divのクラス名：gr */
   margin: 0;
 }
 
-
-
+/*  下線*
+/* border-top: 1px solid #000; */
+/* .main_mdsの上 */
 
 
 /* vertical-align」を「縦方向の揃え位置 
@@ -305,18 +306,6 @@ middle:中央揃え
 
 
 
-/* 水色枠背景じゃないほうの説明
-.nm_message{ */
-/* width: 225px;
-  padding: 12px 0;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
-  margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  letter-spacing: 0;
-} */
 
 
 
@@ -346,7 +335,7 @@ divのクラス名：gr */
 .shokai_text {
   width: 75vw;
   padding: 12px 0;
-  border-top: 1px solid #000;
+  /* border-top: 1px solid #000; */
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
