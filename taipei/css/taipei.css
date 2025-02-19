@@ -2,6 +2,7 @@ body {
   font-family: 'Zen Kaku Gothic New', sans-serif;
   font-weight: 400;
   box-sizing: border-box;
+  margin: 0;
 }
 
 body p {
@@ -9,11 +10,19 @@ body p {
 }
 
 header {
-  max-width: 768px;
+  max-width: 590px;
   width: 100%;
   margin: 0;
   background-image: url(../image/sp_tp_hd_bg.png);
   background-size: cover;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.taiwan {
+  margin-left: 8px;
 }
 
 .icon {
@@ -38,14 +47,20 @@ header {
   display: flex;
   justify-content: space-between;
   margin: auto;
+  padding: 0;
 }
 
 .sub_picture img {
   width: 95%;
 }
 
+section {
+  margin-bottom: 60px;
+}
+
 #attraction {
-  margin: 0 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 h2 {
@@ -77,6 +92,7 @@ main {
 .main_image {
   width: 100%;
   /* height: 180px; */
+  margin-bottom: 20px;
 }
 
 .produce_text {
@@ -84,21 +100,26 @@ main {
   padding: 20px 16px;
   margin: 0 auto;
   line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 .nm_message {
   padding: 12px 0;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
+  margin-top: 40px;
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
   letter-spacing: 0;
+  width: 100%;
 }
 
 h3 {
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .point {
@@ -111,14 +132,29 @@ h3 {
   padding: 8px 0;
 }
 
+.point p {
+  margin: 0;
+}
+
 .time {
   font-weight: bold;
   margin: 0;
 }
 
+.border {
+  border-bottom: #000 1px solid;
+  padding-bottom: 40px;
+}
+
 .flex {
   display: flex;
   justify-content: space-evenly
+}
+
+#nightMarket {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .modal img {
@@ -169,18 +205,63 @@ h3 {
   background-color: #fff;
 }
 
-.access_h3 {
+.modal-content {
+  background-color: #0180BE;
+  width: 375px;
+  height: 670px;
+}
+
+.modal-content .inModalTitle {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 80px;
+  margin-bottom: 32px;
+}
+
+.inModalSentence {
+  text-align: left;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 20px;
+
+}
+
+.inModalTime {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+#access {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#access h2 {
+  margin-bottom: 40px;
+}
+
+#access .access_h3 {
+  display: inline;
   border-bottom: 1px #000 solid;
   padding-bottom: 8px;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .bg_access {
   width: 100%;
-  margin: 0 0;
+  margin: 20px auto;
 }
 
 ul {
   list-style-type: none;
+  padding-left: 0;
+  text-align: left;
 }
 
 .vehicle {
@@ -196,33 +277,13 @@ h4::before {
 
 .yuuyuucard {
   width: 100px;
+  margin-top: 12px;
 }
 
 .access li {
   list-style-type: square;
   font-size: 30px;
 }
-
-.modal-content {
-  background-color: blue;
-}
-
-
-.modal_title {
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff;
-}
-
-.modal_sentense {
-  color: #fff;
-}
-
-
-
-
-
-
 
 @media screen and (min-width:768px) {
   .MenuList {
