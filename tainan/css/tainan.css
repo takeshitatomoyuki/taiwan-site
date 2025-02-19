@@ -1,4 +1,4 @@
-/* 最新2.17 16:16 */
+/* 最新2.19 9:30 */
 body {
   background-color: rgba(0, 0, 0, 0.05);
   font-family: 'Zen Kaku Gothic New', sans-serif;
@@ -28,23 +28,12 @@ header {
 /*↓ <h1>の台南漢字ロゴ画像 */
 
 .bg_img {
-  width: 199px;
+  /* width: 199px; */
   height: 372px;
   margin: 112px 80px;
 }
 
 
-
-/* /////////////////////////////////////////////////////// */
-/* ↓ヘッダーの次に書く */
-.icon {
-  display: none;
-}
-
-
-/* /////////////////////////////////////////////////////// */
-/* ---------------------------------------------- */
-/* ↓ここからヘッダー*/
 
 /* ヘッダーの右下の説明文 */
 .top_page {
@@ -56,6 +45,15 @@ header {
   line-height: 1.6em;
 }
 
+/* /////////////////////////////////////////////////////// */
+
+
+
+/* /////////////////////////////////////////////////////// */
+/* ↓ヘッダーの次に書く */
+.icon {
+  display: none;
+}
 
 
 /* /////////////////////////////////////////////////////// */
@@ -130,20 +128,29 @@ h2 {
  */
 
 
-/* <h3>【共通見出し 2箇所】 */
+/* <h3 のクラス：main_mds>【共通見出し 2箇所】 */
 
 /*安平老街、赤崁楼< */
-h3 {
+.main_mds {
   text-align: center;
+  margin: 20px;
 }
 
 
 
 /* ↓グルメの担仔麺などの太字 */
 
-/* <h3>クラス名：main_mds_mds
+/* <h3の>クラス名：main_mds_mds
 【共通見出し 5箇所】 */
-/*グルメの4箇所・ヒーリングの1箇所
+/*グルメの4箇所・ヒーリングの1箇所*/
+.main_mds_mds {
+  text-align: center;
+  margin: 20px;
+
+}
+
+
+
 /* 
 担仔麺（タンツーメン）、
 蝦仁飯（エビ飯）、
@@ -151,7 +158,12 @@ h3 {
 鴨肉飯（ヤーロウファン）
 白河蓮花（ヒーリングに有り）*/
 
+
 /* ↑　グルメの担仔麺などの太字 */
+
+
+
+
 
 
 /* ↓ ｛画像の共通クラス4箇所あり｝ */
@@ -168,18 +180,29 @@ healingの
 .main_image {
   width: 90vw;
   height: auto;
+  margin: 20px;
 }
 
 /* ↓ 【共通2箇所あり】 */
 /* アトラクション（attraction）の水色説明（長文）の
 /*クラス名：at_text */
 .at_text {
-  background-color: rgba(108, 186, 216, 0.2);
+  background-color: rgba(100, 201, 155, 0.2);
+
   padding: 20px 16px;
-  width: 80vw;
+  /* width: 80vw; */
   margin: 0 auto;
   line-height: 1.6;
+
 }
+
+/* ★★★ */
+/* 追加したもの*/
+/*↑width:コメントアウトした */
+
+
+
+
 
 
 
@@ -187,7 +210,20 @@ healingの
 .sub_image {
   display: flex;
   justify-content: space-between;
+  width: 80vw;
+  height: auto;
+  margin: 0vw;
+  margin-top: 20px;
 }
+
+/* ～～～～～～～～～～～～～～～～～ */
+/* 追加した */
+/* width:80vw;か90vw
+height: auto;
+*/
+/* margin: 0vw; */
+
+/* ～～～～～～～～～～～～～～～～～ */
 
 
 
@@ -206,14 +242,14 @@ healingの
 /*アトラクションの水色説明文（短文）のdivの
 クラス名：short */
 .short {
-  background-color: rgba(108, 186, 216, 0.2);
-  width: 295px;
+  background-color: rgba(100, 201, 155, 0.2);
+  /* width: 295px; */
   line-height: 1.6;
   margin-top: 20px;
   text-align: center;
-  padding: 8px 0;
+  padding: 20px 16px;
+  /* padding: 8px 0; */
 }
-
 
 
 /*  グルメ、ヒーリングの */
