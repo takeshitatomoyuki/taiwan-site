@@ -189,10 +189,19 @@ healingの
 .at_text {
   background-color: rgba(100, 201, 155, 0.2);
 
-  padding: 20px 16px;
-  /* width: 80vw; */
-  margin: 0 auto;
+  width: 90vw;
+  height: auto;
+  margin: 20px;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
   line-height: 1.6;
+
+  /* 
+  padding: 20px 16px;
+  
+  /* width: 80vw; */
+  /* margin: 0 auto;*/
+
 
 }
 
@@ -211,6 +220,7 @@ healingの
   display: flex;
   justify-content: space-between;
   width: 80vw;
+  /*  ↑width40vwとかにしてみる*/
   height: auto;
   margin: 0vw;
   margin-top: 20px;
